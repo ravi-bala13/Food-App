@@ -1,0 +1,146 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    /* border: solid 1px black; */
+  }
+body{
+
+  background-color: black;
+  color: white;
+
+}
+  #options {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #options h3 {
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+
+  .img{
+
+    width: 90%;
+
+  }
+
+
+  #container{
+
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-gap: 20px;
+    justify-content: center;
+    padding: 5%;
+    width: 1000px;
+    margin: auto;
+    /* border: 1px solid red; */
+    padding-left: 100px;
+
+  }
+/* search page */
+  #search_result{
+
+    width: 400px;
+    margin: auto;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    padding: 10px;
+
+  }
+  a{
+
+    color: tomato;
+
+  }
+
+  .search_img{
+
+    width: 370px;
+    border-radius: 10px;
+
+  }
+
+  #input{
+
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    width: 400px;
+    
+    margin: auto;
+
+  }
+  input{
+
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 25px;
+    width: 400px;
+    margin-right: 10px;
+
+  }
+  button{
+
+    height: 30px;
+
+  }
+
+  /* debounicing part */
+
+  #contain{
+    /* border: 1px solid red; */
+    width: 700px;
+    margin: auto;
+}
+#contain img{
+
+  border-radius: 30px;
+  width: 300px;
+  margin-left: 200px;
+  
+
+}
+  
+
+  #search_result {
+    height: 300px;
+    width: 400px;
+    /* border: 1px solid black; */
+    overflow: scroll;
+    border-top:none;
+}
+
+#search_result::-webkit-scrollbar{
+    display: none;
+}
+
+  .each-div{
+    /* border: 1px solid red; */
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+
+}
+.each-div > img{
+    width: 90px;
+}
+
+.details-div{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 900;
+    margin-left: 10px;
+
+}
+
+#today-spcl{
+  width: 200px;
+  margin: auto;
+  color: yellow;
+  
+}
